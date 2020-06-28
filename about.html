@@ -1,0 +1,98 @@
+<!-- This is a report webpage for presenting what has been done based on the questions provided. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style/w3.css"> <!-- External CSS framework with support for desktop, tablet, and mobile design by default -->
+	<link rel="stylesheet" type="text/css" href="style/custompagestyslesheet.css"> <!-- External CSS file -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- External stylesheet for tab icon -->
+	<title>About Page</title>
+</head>
+<body>
+	<!-- Page heading -->
+	<div class="w3-container w3-teal">
+		<h1>Status Posting System</h1>
+	</div>
+	<!-- Navigation bar -->
+	<div class="w3-bar w3-black">
+		<a href="index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+		<a href="poststatusform.php" class="w3-bar-item w3-button w3-mobile">Post a new status</a>
+		<a href="searchstatusform.php" class="w3-bar-item w3-button w3-mobile">Search status</a>
+		<a href="about.html" class="w3-bar-item w3-button w3-mobile w3-light-gray">About this assignment</a>
+	</div>
+	<!-- Report content presented in accordian style -->
+	<div class="tab">
+		<input type="checkbox" id="handle1" name="tab">
+		<label for="handle1">What special features have you done, or attempted, in creating the site that we should know about?</label>
+		<div class="content">
+			<p><ul>
+				<li><strong>Clear and User-friendly Navigation:</strong> A user-friendly navigation bar at the top of the page, with four options, allows visitors to quickly locate
+				  the needed information. Additional links to any relevant pages, like the home page, for example, are also provided at the bottom of the page. In addition,
+				  the <strong>"accordion"</strong> style is used to display the content of this page, for a better user experience.</li>
+				<li><strong>Simple and Professional Appearance:</strong> The layout of this website is clean and simple. The distribution of content is balanced and, the 
+				       colours and fonts used are appealing to the eye.</li>
+				<li><strong>Responsive Web Design:</strong> The web pages automatically resize, or enlarge, to look good on all devices (desktops, tablets, and phones).</li>
+			</ul></p>
+		</div>
+	</div>
+	<div class="tab"> 
+		<input type="checkbox" id="handle2" name="tab">
+		<label for="handle2">Which parts did you have trouble with?</label>  
+		<div class="content">
+			<p><ul>
+				<li>Using the correct SQL statements, with PHP, to interact with the database and handling errors correctly.</li>
+				<li>Using the correct regex to validate user input.</li>
+				<li>Choosing a layout and features best suited for the website and using CSS was a bit challenging.</li>
+			</ul></p>  
+		</div>
+	</div>
+	<div class="tab"> 
+		<input type="checkbox" id="handle3" name="tab">
+		<label for="handle3">What would you like to do better next time?</label>
+		<div class="content">
+			<p><ul>
+				<li>Write better code to enhance functionality of the website.</li>
+				<li>Use images and graphics.</li>
+				<li>Incorporate different features, not used for this website, to enhance the user interface.</li>
+			</ul></p>  
+		</div>
+	</div>
+	<div class="tab"> 
+		<input type="checkbox" id="handle4" name="tab">
+		<label for="handle4">What references/sources have you used to help you learn how to create your website?</label>
+		<div class="content">
+			<p><ul>
+				<li>Lecture notes: Week 1 to Week 5</li>
+				<li><a href = "https://www.php.net/manual/en/">PHP Manual</a></li>
+				<li><a href = "https://www.w3schools.com/html/">W3 Schools - HTML</a></li>
+				<li><a href = "https://www.w3schools.com/php/">W3 Schools - PHP</a></li>
+				<li><a href = "https://www.w3schools.com/sql/">W3 Schools - SQL</a></li>
+				<li><a href = "https://www.w3schools.com/css/">W3 Schools - CSS</a></li>
+				<li><a href = "https://www.w3schools.com/w3css/">W3 CSS Framework</a></li>	
+				<li><a href = "https://code-boxx.com/simple-responsive-accordion-pure-css/">3 Steps Simple Responsive Accordion With Pure CSS</a></li>
+				<li><a href = "https://css-tricks.com/circular-3d-buttons/">Crafting Minimal Circular 3D Buttons with CSS</a></li>				
+				<li><a href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">Font Awesome</a></li>
+			</ul></p>  
+		</div>
+	</div>
+	<div class="tab">  
+		<input type="checkbox" id="handle5" name="tab">
+		<label for="handle5">What have you learnt along the way?</label>
+		<div class="content">
+			<p><ul>
+				<li>To code with HTML5, CSS, and PHP.</li>
+				<li>PHP with database support.</li>
+				<li>To use a CSS framework like W3-CSS.</li>
+				<li>Database creation and manipulation using MySQL.</li>
+				<li>Website layout and design.</li>
+			</ul></p>  
+		</div>
+	</div>
+	<br/><br/>
+	<!-- Footer -->
+	<footer class="w3-container w3-center">
+		<p><a href="index.html">Return to Home Page</a></p>
+	</footer>
+</body>
+</html>
