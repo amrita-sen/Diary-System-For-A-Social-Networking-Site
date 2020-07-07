@@ -1,6 +1,6 @@
-# Diary-system-for-a-social-networking-site.
+# Diary-web system-for-a-social-networking-site.
 This system allows users to post their status, save it to a database table, retrieve and view status details. Appropriate HTML, PHP files and Database
-tables are created for this system. 
+tables are created for this system. It has a responsive web design and the web pages automatically resize, or enlarge, to look good on all devices (desktops, tablets, and phones).
 
 Note: There are 3 tables created manually in the database. The program checks the existence of the tables and does not create them.</br></br>
 
@@ -80,18 +80,21 @@ If there is an error, an error message is generated that include links to return
 
 <b>Screenshots:</b>
 
-<b>When matching results are found:</b>
+<b>When matching records are found:</b>
 
 ![image](https://user-images.githubusercontent.com/52112568/86737409-60c79800-c088-11ea-9300-5fed9d78deef.png)
 
-<b>When matching results are not found:</b><br>
+<b>When matching records are not found:</b>
 
-<b>When text field is empty at the time of submission:</b><br>
+![image](https://user-images.githubusercontent.com/52112568/86741349-6a063400-c08b-11ea-8cba-7b4e6cc283de.png)
 
+<b>When text field is empty at the time of submission:</b>
 
-<b>6.	about.html (About Page)</b>
+![image](https://user-images.githubusercontent.com/52112568/86741290-5eb30880-c08b-11ea-84bc-e2166e2a52ea.png)
 
-This is a report webpage that presents what has been done for this system in a question-answer format and an accordian style. It also provides a link to return to the Home page.
+<br><b>6.	about.html (About Page)</b>
+
+This is a report webpage that presents what has been done for this system in a question-answer format and in an accordian display style. It also provides a link to return to the Home page.
 
 <b>Screenshots:</b>
 
