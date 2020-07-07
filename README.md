@@ -1,6 +1,6 @@
-# Diary-web system-for-a-social-networking-site.
-This system allows users to post their status, save it to a database table, retrieve and view status details. Appropriate HTML, PHP files and Database
-tables are created for this system. It has a responsive web design and the web pages automatically resize, or enlarge, to look good on all devices (desktops, tablets, and phones).
+# Diary-system-for-a-social-networking-site.
+This web system allows users to post their status, save it to a database table, retrieve and view status details. Appropriate HTML, PHP files and Database
+tables are created for this system. It has a responsive design and the web pages automatically resize, or enlarge, to look good on all devices (desktops, tablets, and phones).
 
 Note: There are 3 tables created manually in the database. The program checks the existence of the tables and does not create them.</br></br>
 
