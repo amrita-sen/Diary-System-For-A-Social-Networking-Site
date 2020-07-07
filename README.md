@@ -11,9 +11,11 @@ Note: There are 3 tables created manually in the database. The program checks th
 
 This is the home page of the system. It displays information of the author (student) and a disclaimer. It also has links to the other pages of the system.
 
-<b>Screenshots:</b>
+<b>Screenshot:</b>
 
-<b>2.	poststatusform.php (Post Status Page)</b>
+![image](https://user-images.githubusercontent.com/52112568/86736656-cebf8f80-c087-11ea-8783-39701df19343.png)
+ 
+<br><b>2.	poststatusform.php (Post Status Page)</b>
 
 This web page contains the form that enables a status to be submitted and saved. POST method for form submission is used and a link to return to the Home page is provided. The status data contains:
 
@@ -27,7 +29,11 @@ The user is informed using relevant messages when the status has been successful
 
 <b>Screenshots:</b>
 
-<b>3.	poststatusprocess.php (Process Post Status Page)</b>
+![image](https://user-images.githubusercontent.com/52112568/86736772-e6971380-c087-11ea-93ac-2f0fcefdf324.png)
+<br>
+![image](https://user-images.githubusercontent.com/52112568/86736856-f4e52f80-c087-11ea-87f2-4334e608027f.png)
+
+<br><b>3.	poststatusprocess.php (Process Post Status Page)</b>
 
 This web page checks the input data, writes the data to a database table and generates the corresponding HTML output in response to the user’s request. 
 
@@ -38,7 +44,19 @@ A confirmation message is generated for a valid entry followed by a link to retu
 
 <b>Screenshots:</b>
 
-<b>4.	searchstatusform.html (Search Status Page)</b>
+<b>On successful submission of a new status:</b>
+
+![image](https://user-images.githubusercontent.com/52112568/86736941-04fd0f00-c088-11ea-9861-9a8ddb2eee31.png)
+
+<b>Error messages for invalid input:</b>
+
+![image](https://user-images.githubusercontent.com/52112568/86737109-2100b080-c088-11ea-9850-40843671082f.png)
+<br>
+![image](https://user-images.githubusercontent.com/52112568/86737158-2c53dc00-c088-11ea-8d8c-376f800d5bb2.png)
+<br>
+![image](https://user-images.githubusercontent.com/52112568/86737238-3d045200-c088-11ea-9fd1-b966fada6745.png)
+
+<br><b>4.	searchstatusform.html (Search Status Page)</b>
 
 This web page contains an input text field that accepts a status search string (the text description of the status) for searching the status information which already saved in the database table.
 
@@ -46,7 +64,11 @@ The GET method for form submission is used and a link to return to the Home page
 
 <b>Screenshots:</b>
 
-<b>5.	searchstatusprocess.php (Search Status Result Page)</b>
+![image](https://user-images.githubusercontent.com/52112568/86737291-4988aa80-c088-11ea-8875-bcf70a0646c5.png)
+<br>
+![image](https://user-images.githubusercontent.com/52112568/86737358-56a59980-c088-11ea-8ddd-8c85dd632c4e.png)
+
+<br><b>5.	searchstatusprocess.php (Search Status Result Page)</b>
 
 This web page checks the status search string, reads the data from the status database table, searches for the occurrence of the status string in each status record and generates the
 corresponding HTML output in response to the user’s search request.
@@ -58,11 +80,24 @@ If there is an error, an error message is generated that include links to return
 
 <b>Screenshots:</b>
 
+<b>When matching results are found:</b>
+
+![image](https://user-images.githubusercontent.com/52112568/86737409-60c79800-c088-11ea-9300-5fed9d78deef.png)
+
+<b>When matching results are not found:</b><br>
+
+<b>When text field is empty at the time of submission:</b><br>
+
+
 <b>6.	about.html (About Page)</b>
 
 This is a report webpage that presents what has been done for this system in a question-answer format and an accordian style. It also provides a link to return to the Home page.
 
 <b>Screenshots:</b>
 
-<b>7.	Two additional CSS files to style the web pages.</b>
+![image](https://user-images.githubusercontent.com/52112568/86737472-6cb35a00-c088-11ea-9f89-7058b12f69d6.png)
+<br>
+![image](https://user-images.githubusercontent.com/52112568/86737509-73da6800-c088-11ea-9095-660daf90cda5.png)
+
+<br><b>7.	Two additional CSS files to style the web pages.</b>
 
