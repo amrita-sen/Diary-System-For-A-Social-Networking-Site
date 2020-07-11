@@ -102,5 +102,5 @@ This is a report webpage that presents what has been done for this system in a q
 <br>
 ![image](https://user-images.githubusercontent.com/52112568/86737509-73da6800-c088-11ea-9095-660daf90cda5.png)
 
-<br><b>7.	Two additional CSS files to style the web pages.</b>
+<br><b>7.	Two additional CSS files, including w3.css, to style the web pages. W3.CSS is a modern CSS framework with support for desktop, tablet, and mobile design by default.</b>
 
